@@ -68,7 +68,7 @@ if __name__ == "__main__":
     rprint("Choose a grading scale")
     rprint(f"Your choices: {scales}")
     input_scale = input("").casefold()
-    
+
     if input_scale not in scales:
         input_scale = "original"
 
